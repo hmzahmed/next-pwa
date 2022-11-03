@@ -13,7 +13,17 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Link href="/videos">Go to Videos</Link>
+        <Link href="/videos">
+          <div
+            style={{
+              backgroundColor: "gray",
+              padding: "10px",
+              borderRadius: "5px",
+            }}
+          >
+            Click to Video Download Demo
+          </div>
+        </Link>
       </main>
     </div>
   );
